@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #222f3e;
+}
+h4{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-size: 35px;
+}
+section div{
+    animation-delay: 1s;
+}
+.cora{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: cora;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes cora{
+    0%{background-color: rgb(63, 71, 187);
+        transform: translateX(300px) rotate(360deg);
+        box-shadow: -10px 10px 90px #ff4757;}
+    100%{background-color: red;
+        box-shadow: -10px 10px 90px #ff4757;}
+
+}
+
+.tq{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: tq;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes tq{
+    0%{ background-color: rgb(63, 71, 187);
+        transform: translateX(-300px) rotate(360deg);
+        box-shadow: -10px 10px 90px #ff4757;}
+    100%{background-color: red;
+        box-shadow: -10px 10px 90px #ff4757;}
+
+}
+.ta{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: ta;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes ta{
+    0%{background-color: rgb(255, 142, 188);
+        transform: translateY(240px);
+        box-shadow: -10px 10px 90px rgb(80, 212, 124);}
+    100%{background-color: red;
+        box-shadow: -10px 10px 90px #ff4757;}
+
+}
+.qhm{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: qhm;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes qhm{
+    0%{background-color: rgb(255, 142, 188);
+        transform: translateY(-200px);
+        box-shadow: -10px 10px 90px rgb(201, 187, 66);}
+    100%{background-color: red;
+        animation-delay: 5s;
+        box-shadow: -10px 10px 90px #ff4757;}
+
+}
+.pe img{
+    width: 10px;
+    border-radius: 30%;
+    border: 1px solid;
+    position: absolute;
+    top: 210px;
+    left: 530px;
+    animation-name: pe;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+@keyframes pe{
+    0%{width: 5px;}
+    40%{width: 100px;}
+    80%{width: 180px;}
+    100%{width: 200px;}
+}
+.c img{
+    width: 800px;
+    position: absolute;
+    top: 130px;
+    left: 320px;
+    animation-name: c;
+}
+
